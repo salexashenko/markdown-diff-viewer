@@ -1,0 +1,42 @@
+.markdown-diff-viewer {
+  font-family: system-ui, -apple-system, sans-serif;
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.markdown-content {
+  line-height: 1.6;
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5,
+.markdown-content h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.markdown-content p {
+  margin: 1em 0;
+}
+
+.diff-deletion {
+  background-color: #ffd7d7;
+  text-decoration: line-through;
+  color: #b91c1c;
+  padding: 0.1em 0.2em;
+  border-radius: 0.2em;
+}
+
+.diff-addition {
+  background-color: #dcfce7;
+  color: #166534;
+  padding: 0.1em 0.2em;
+  border-radius: 0.2em;
+}
